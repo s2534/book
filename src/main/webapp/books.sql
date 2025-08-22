@@ -1,0 +1,8 @@
+CREATE TABLE BOOK (
+    id NUMBER PRIMARY KEY,
+    title VARCHAR2(200) NOT NULL,
+    author VARCHAR2(100),
+    publisher VARCHAR2(100),
+    price NUMBER
+);
+CREATE SEQUENCE book_seq START WITH 1 INCREMENT BY 1;
